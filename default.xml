@@ -54,6 +54,10 @@
   <project path="device/htc/msm8960-common" name="slim_candykat_device_htc_msm8960-coommon" remote="candy" revision="ck44" />
   <project path="device/lge/hammerhead" name="slim_candykat_device_lge_hammerhead" remote="candy" revision="ck44" />
   <project path="device/lge/mako" name="slim_candykat_device_lge_mako" remote="candy" revision="ck44" />
+  <project path="device/samsung/maguro" name="slim_candykat_device_samsung_maguro" remote="candy" revision="ck44" />
+  <project path="device/samsung/toro" name="slim_candykat_device_samsung_toro" remote="candy" revision="ck44" />
+  <project path="device/samsung/toroplus" name="slim_candykat_device_samsung_toroplus" remote="candy" revision="ck44" />
+  <project path="device/samsung/tuna" name="slim_candykat_device_samsung_tuna" remote="candy" revision="ck44" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="kk4.4" />
@@ -310,6 +314,7 @@
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="slim" revision="kk4.4" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="slim" revision="kk4.4" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="kk4.4" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="slim" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -469,6 +474,10 @@
   
   <!-- M7 -->
   <project path="vendor/htc" name="SlimRoms/proprietary_vendor_htc" remote="github" revision="kk4.4" />
+  
+  <!-- Maguro/Toro/Toroplus/Tuna -->
+  <project path="vendor/samsung" name="SlimRoms/proprietary_vendor_samsung" remote="github" revision="kk4.4" />
+  <project path="vendor/imgtec" name="SlimRoms/proprietary_vendor_imgtec" remote="github" revision="kk4.4" />
   
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
