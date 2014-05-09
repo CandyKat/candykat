@@ -45,11 +45,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/m7" name="slim_candykat_device_htc_m7" remote="candy" revision="ck44" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="slim" revision="kk4.4" />
-  <project path="device/htc/m7spr" name="slim_candykat_device_htc_m7spr" remote="candy" revision="ck44" />
-  <project path="device/htc/m7vzw" name="slim_candykat_device_htc_m7vzw" remote="candy" revision="ck44" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-coommon" remote="slim" revision="kk4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="kk4.4" />
@@ -301,8 +296,6 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="slim" revision="kk4.4" />
-  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="slim" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -447,9 +440,6 @@
   <!-- New Additions for CandyKat -->
   <project path="vendor/candykat" name="errantzebra845/slim_candykat_vendor_candykat" remote="github" revision="ck44" />
 
-  <!-- M7 -->
-  <project path="vendor/htc" name="SlimRoms/proprietary_vendor_htc" remote="github" revision="kk4.4" />
-    
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
 
