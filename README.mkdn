@@ -1,7 +1,5 @@
 CandyKat
 ===========
-errantzebra845 aka mar5hal
-
 
 Getting Started
 ---------------
@@ -13,11 +11,11 @@ To initialize your local repository using the CandyKat trees, use a command like
 
 for google, exynos and non qcom devices:
 
-    repo init -u git://github.com/errantzebra845/slim_candykat.git -b ck44
+    repo init -u git://github.com/CandyKat/candykat.git -b ck44
 
 for qcom devices which are using CodeAuroraForum trees:
 
-    repo init -u git://github.com/errantzebra845/slim_candykat.git -b ck44-caf
+    repo init -u git://github.com/CandyKat/candykat.git -b ck44-caf
 
 Then to sync up:
 
