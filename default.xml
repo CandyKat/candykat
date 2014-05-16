@@ -446,6 +446,8 @@
   <project path="device/htc/m7spr" name="device_htc_m7spr" revision="ck44" remote="candy" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" revision="ck44" remote="candy" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" revision="ck44" remote="candy" />
+  <project path="device/htc/ville" name="device_htc_ville" revision="ck44" remote="candy" />
+  <project path="device/htc/s4-common" name="device_htc_s4-common" revision="ck44" remote="candy" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" revision="ck44" remote="candy" />
   <project path="device/lge/mako" name="device_lge_mako" revision="ck44" remote="candy" />
   <project path="device/qcom/common" name="device_qcom_common" revision="ck44" remote="candy" />
