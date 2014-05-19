@@ -448,6 +448,7 @@
   <project path="device/htc/m7-common" name="device_htc_m7-common" revision="ck44" remote="candy" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" revision="ck44" remote="candy" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" revision="ck44" remote="candy" />
+  <project path="device/htc/m8" name="device_htc_m8" revision="ck44" remote="candy" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" revision="ck44" remote="candy" />
   <project path="device/htc/ville" name="device_htc_ville" revision="ck44" remote="candy" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" revision="ck44" remote="candy" />
@@ -459,12 +460,13 @@
   <project path="device/sony/common" name="device_sony_common" revision="kk4.4" remote="slim" />
   <project path="device/sony/rhine-common" name="device_sony_rhine-common" revision="kk4.4" remote="slim" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" revision="kk4.4" remote="slim" />
-  <project path="kernel/asus/flo" name="kernel_asus_flo" revision="ck44" remote="candy" />
-  <project path="kernel/asus/grouper" name="kernel_asus_grouper" revision="ck44" remote="candy" />
-  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" revision="ck44" remote="candy" />
-  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" revision="ck44" remote="candy" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" revision="ck44" remote="candy" />
-  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" revision="ck44" remote="candy" />
+  <project path="kernel/asus/flo" name="kernel_asus_flo" revision="kk4.4" remote="slim" />
+  <project path="kernel/asus/grouper" name="kernel_asus_grouper" revision="kk4.4" remote="slim" />
+  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" revision="kk4.4" remote="slim" />
+  <project path="kernel/htc/msm8974" name="kernel_htc_msm8974" revision="kk4.4" remote="slim" />
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" revision="kk4.4" remote="slim" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" revision="kk4.4" remote="slim" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" revision="kk4.4" remote="slim" />
   <project path="kernel/sony/msm8974" name="kernel_sony_msm8974" revision="kk4.4" remote="slim" />
   <project path="vendor/candykat" name="CandyKat/vendor_candykat" remote="github" revision="ck44" />
   <project path="vendor/asus" name="proprietary_vendor_asus" revision="ck44" remote="slim" />
