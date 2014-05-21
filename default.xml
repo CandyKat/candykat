@@ -480,7 +480,7 @@
   <project path="vendor/asus" name="proprietary_vendor_asus" revision="kk4.4" remote="slim" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" revision="kk4.4" remote="slim" />
   <project path="vendor/elan" name="proprietary_vendor_elan" revision="kk4.4" remote="slim" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" revision="kk4.4" remote="slim" />
+  <project path="vendor/htc" name="themuppets/proprietary_vendor_htc" revision="cm-11.0" remote="github" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" revision="kk4.4" remote="slim" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" revision="kk4.4" remote="slim" />
   <project path="vendor/lge" name="proprietary_vendor_lge" revision="kk4.4" remote="slim" />
