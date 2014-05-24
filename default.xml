@@ -295,6 +295,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4-caf" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
+  <project path="hardware/samsung" name="hardware/samsung" remote="slim" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
@@ -453,8 +454,8 @@
   <project path="device/htc/ville" name="device_htc_ville" revision="ck44" remote="candy" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" revision="ck44" remote="candy" />
   <project path="device/qcom/common" name="device_qcom_common" revision="kk4.4" remote="slim" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" revision="kk4.4" remote="slim" />
   <project path="device/samsung/d2lte" name="device_samsung_d2lte" revision="ck44" remote="candy" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" revision="kk4.4" remote="slim" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" revision="kk4.4" remote="slim" />
   <project path="device/sony/amami" name="device_sony_amami" revision="ck44" remote="candy" />
   <project path="device/sony/common" name="device_sony_common" revision="kk4.4" remote="slim" />
