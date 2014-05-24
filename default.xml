@@ -17,7 +17,7 @@
   <remote  name="slim"
            fetch="https://github.com/SlimRoms" />
 
-  <project path="build" name="android_build" remote="candy" revision="ck44" >
+  <project path="build" name="build" remote="candy" revision="ck44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
