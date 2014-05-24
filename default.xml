@@ -4,21 +4,20 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="github"
-           fetch="git://github.com/" />
-          
   <remote  name="candy"
-           fetch="https://github.com/CandyKat/" /> 
-          
-  <remote  name="slim"
-           fetch="https://github.com/SlimRoms/" 
-           review="https://gerrit.slimroms.net/"/>
+           fetch="https://github.com/CandyKat" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="candy" revision="ck44" >
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms" />
+
+  <project path="build" name="android_build" remote="candy" revision="ck44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -244,7 +243,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="\frameworks_base" remote="candy" revision="ck44-caf" />
+  <project path="frameworks/base" name="frameworks_base" remote="candy" revision="ck44-caf" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -438,6 +437,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+  <project path="candykat" name="candykat" remote="candy" revision="ck44-caf" />
 
   <!-- New Additions for CandyKat -->
   <project path="device/htc/m7" name="device_htc_m7" revision="ck44" remote="candy" />
