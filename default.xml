@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/"
+           fetch="git://github.com/" />
           
   <remote  name="candy"
            fetch="https://github.com/CandyKat/" /> 
