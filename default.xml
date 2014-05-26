@@ -5,17 +5,15 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="candy"
-           fetch="https://github.com/CandyKat" />
+           fetch="https://github.com/CandyKat/" />
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="git://github.com/"
+           review="https://gerrit.slimroms.net/"/>
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
-
-  <remote  name="slim"
-           fetch="https://github.com/SlimRoms" />
 
   <project path="build" name="build" remote="candy" revision="ck44" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -58,7 +56,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="candy" revision="ck44-caf" />
+  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
@@ -243,7 +241,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="frameworks_base" remote="candy" revision="ck44-caf" />
+  <project path="frameworks/base" name="frameworks_base" remote="candy" revision="ck44caf" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -279,23 +277,19 @@
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/display-caf-new" name="SlimRoms/hardware_qcom_display-caf-new" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/media-caf-new" name="SlimRoms/hardware_qcom_media" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4-caf" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
-  <project path="hardware/samsung" name="hardware/samsung" remote="slim" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
@@ -442,42 +436,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="candykat" name="candykat" remote="candy" revision="ck44-caf" />
+  <project path="candykat" name="candykat" remote="candy" revision="ck44caf" />
 
-  <!-- New Additions for CandyKat -->
-  <project path="device/htc/m7" name="device_htc_m7" revision="ck44" remote="candy" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" revision="ck44" remote="candy" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" revision="ck44" remote="candy" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" revision="ck44" remote="candy" />
-  <project path="device/htc/m8" name="device_htc_m8" revision="ck44" remote="candy" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" revision="ck44" remote="candy" />
-  <project path="device/htc/ville" name="device_htc_ville" revision="ck44" remote="candy" />
-  <project path="device/htc/s4-common" name="device_htc_s4-common" revision="ck44" remote="candy" />
-  <project path="device/qcom/common" name="device_qcom_common" revision="kk4.4" remote="slim" />
-  <project path="device/samsung/d2lte" name="device_samsung_d2lte" revision="ck44" remote="candy" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" revision="kk4.4" remote="slim" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" revision="kk4.4" remote="slim" />
-  <project path="device/sony/amami" name="device_sony_amami" revision="ck44" remote="candy" />
-  <project path="device/sony/common" name="device_sony_common" revision="kk4.4" remote="slim" />
-  <project path="device/sony/rhine-common" name="device_sony_rhine-common" revision="kk4.4" remote="slim" />
-  <project path="device/sony/qcom-common" name="device_sony_qcom-common" revision="kk4.4" remote="slim" />
-  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" revision="kk4.4" remote="slim" />
-  <project path="kernel/htc/msm8974" name="kernel_htc_msm8974" revision="kk4.4" remote="slim" />
-  <project path="kernel/samsung/d2" name="kernel_samsung_d2" revision="kk4.4" remote="slim" />
-  <project path="kernel/sony/msm8974" name="kernel_sony_msm8974" revision="kk4.4" remote="slim" />
-  <project path="vendor/candykat" name="CandyKat/vendor_candykat" remote="github" revision="ck44" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" revision="kk4.4" remote="slim" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" revision="kk4.4" remote="slim" />
-  <project path="vendor/htc" name="themuppets/proprietary_vendor_htc" revision="cm-11.0" remote="github" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" revision="kk4.4" remote="slim" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" revision="kk4.4" remote="slim" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" revision="kk4.4" remote="slim" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" revision="kk4.4" remote="slim" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" revision="kk4.4" remote="slim" />
-  <project path="vendor/qcom" name="proprietary_vendor_qcom" revision="kk4.4" remote="slim" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" revision="kk4.4" remote="slim" />
-  <project path="vendor/sony" name="proprietary_vendor_sony" revision="kk4.4" remote="slim" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" revision="kk4.4" remote="slim" />
+  <!-- New Additions for candykat -->
+  <project path="vendor/candykat" name="vendor_candykat" remote="candy" revision="ck44-caf" />
 
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
@@ -503,5 +465,9 @@
 
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
+
+  <!-- CyanogenMod ffmpeg -->
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-11.0" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-11.0" />
 
 </manifest>
