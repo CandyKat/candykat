@@ -15,7 +15,7 @@ for google, exynos and non qcom devices:
 
 for qcom devices which are using CodeAuroraForum trees:
 
-    repo init -u git://github.com/CandyKat/candykat.git -b ck44-caf
+    repo init -u git://github.com/CandyKat/candykat.git -b ck44caf
 
 Then to sync up:
 
