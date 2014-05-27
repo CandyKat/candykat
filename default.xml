@@ -439,7 +439,7 @@
   <project path="candykat" name="candykat" remote="candy" revision="ck44caf" />
 
   <!-- New Additions for candykat -->
-  <project path="vendor/candykat" name="vendor_candykat" remote="candy" revision="ck44-caf" />
+  <project path="vendor/candykat" name="vendor_candykat" remote="candy" revision="ck44" />
 
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
