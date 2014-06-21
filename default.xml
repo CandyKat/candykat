@@ -11,7 +11,7 @@
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
 
-  <default revision="refs/tags/android-4.4.3_r1.1"
+  <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -453,7 +453,7 @@
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
 
   <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
+  <project path="prebuilt" name="android_prebuilt" remote="candy" revision="ck44" />
 
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
