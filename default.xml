@@ -309,6 +309,7 @@
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
   <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="kk4.4" />
+  <project path="packages/apps/CandyCenter" name="packages_apps_CandyCenter" remote="candy" revision="ck44" />
   <project path="packages/apps/CandyWrappers" name="packages_apps_CandyWrappers" remote="candy" revision="ck44" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
