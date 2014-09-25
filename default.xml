@@ -56,7 +56,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="rc420head/android_external_bluetooth_bluedroid" remote="github" revision="ck44caf" />
+  <project path="external/bluetooth/bluedroid" name="slimroms/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
@@ -362,7 +362,7 @@
   <project path="packages/providers/MediaProvider" name="CandyKat/packages_providers_MediaProvider" remote="github" revision="ck44" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="kk4.4" />
-<project path="packages/providers/ThemesProvider" name="CandyKat/packages_providers_ThemesProvider" remote="github" revision="ck44" />
+  <project path="packages/providers/ThemesProvider" name="CandyKat/packages_providers_ThemesProvider" remote="github" revision="ck44" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
