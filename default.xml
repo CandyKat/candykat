@@ -304,6 +304,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="kk4.4-caf" />
+  <project path="packages/apps/BluetoothExt" name="SlimRoms/packages_apps_BluetoothExt" remote="github" revision="kk4.4" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="candy" revision="ck44" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
